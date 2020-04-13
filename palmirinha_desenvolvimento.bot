@@ -1,0 +1,51 @@
+{
+    "name": "palmirinha_desenvolvimento",
+    "description": "Chatbot desenvolvido para a realização de vendas de bolo!",
+    "version": "2.0",
+    "services": [
+        {
+            "tenantId": "162f003a-faa4-43dd-a952-035591468b05",
+            "subscriptionId": "05ec3c32-f654-4528-93b2-e89880e76eb9",
+            "resourceGroup": "Estudos",
+            "serviceName": "palmirinha",
+            "type": "abs",
+            "name": "palmirinha",
+            "id": "1"
+        },
+        {
+            "connectionString": "rtXGDIfRBUJV74SKIhpj0w==!ziuf5UjB5/D3Q4dtVIaEWA4RYtx03/oaxjJNkFnoqnoCCzaRcuYmvziaR3CLsctgRJur5TrSG6KoS16UykxK/S5VAZZtlYJC0rmNkm4FyFEsySwxwXAZqQqU6fxqmFiRelIdXZ/jwGQ4ICYldlNJOsJEh6VpPcwwtBEKbE3nvQknUJEpWeoJ0lvEugGLDJNAhFRkycP4GutBX8kwXbVzYw==",
+            "tenantId": "162f003a-faa4-43dd-a952-035591468b05",
+            "subscriptionId": "05ec3c32-f654-4528-93b2-e89880e76eb9",
+            "resourceGroup": "Estudos",
+            "serviceName": "palmirinha",
+            "type": "blob",
+            "id": "2"
+        },
+        {
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:3978/api/messages",
+            "type": "endpoint",
+            "name": "development",
+            "id": "3"
+        },
+        {
+            "appId": "0f4031bb-adf2-44c2-a090-fb5ba8c3ff21",
+            "appPassword": "QuGmLnm2e4qR+Bg8HtIrHg==!t6qY+PoVK4TIu/XF899+0oY23CMv0FsBnQF9J7OJ6qA=",
+            "endpoint": "https://palmirinha.azurewebsites.net/api/messages",
+            "type": "endpoint",
+            "name": "production",
+            "id": "4"
+        },
+        {
+            "appId": "7f377276-463e-40bf-8b9e-1b8f1c8515bb",
+            "authoringKey": "06e30d4e95c5498281b164e38b5e9006",
+            "version": "0.1",
+            "region": "westus",
+            "type": "luis",
+            "name": "rebolobot_luis",
+            "id": "5"
+        }
+    ],
+    "padlock": ""
+}

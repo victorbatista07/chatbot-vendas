@@ -1,0 +1,169 @@
+{
+    "type": "AdaptiveCard",
+    "body": [{
+            "type": "TextBlock",
+            "id": "txtTitleCard",
+            "horizontalAlignment": "center",
+            "size": "extraLarge",
+            "weight": "bolder",
+            "text": "Bolos Caseiros"
+        },
+        {
+            "type": "Container",
+            "items": [{
+                "type": "ColumnSet",
+                "selectAction": {
+                    "type": "Action.Submit",
+                    "id": "colCake01",
+                    "title": "Bana com Castanha do Pará",
+                    "iconUrl": "http://www.rebolo.net/sabores/caseiros/thumbs/7.jpg",
+                    "data": "Bana com Castanha do Pará"
+                },
+                "columns": [{
+                        "type": "Column",
+                        "items": [{
+                            "type": "Image",
+                            "horizontalAlignment": "Left",
+                            "style": "Person",
+                            "url": "http://www.rebolo.net/sabores/caseiros/thumbs/7.jpg",
+                            "size": "Large",
+                            "altText": "Uma imagem com um bolo de banana com castanha do pará"
+                        }],
+                        "width": "auto"
+                    },
+                    {
+                        "type": "Column",
+                        "items": [{
+                                "type": "TextBlock",
+                                "weight": "Bolder",
+                                "text": "Banana com Castanha do Pará",
+                                "wrap": true
+                            },
+                            {
+                                "type": "TextBlock",
+                                "horizontalAlignment": "Left",
+                                "spacing": "None",
+                                "text": "Envolto em massa fofa, esse bolo traz duas delícias do Brasil: pedaços de banana e castanhas do Pará.",
+                                "isSubtle": true,
+                                "wrap": true
+                            },
+                            {
+                                "type": "TextBlock",
+                                "horizontalAlignment": "Center",
+                                "spacing": "None",
+                                "weight": "Bolder",
+                                "text": "R$10,00",
+                                "wrap": true
+                            }
+                        ],
+                        "width": "stretch"
+                    }
+                ]
+            }]
+        },
+        {
+            "type": "Container",
+            "items": [{
+                "type": "ColumnSet",
+                "selectAction": {
+                    "type": "Action.Submit",
+                    "id": "colCake02",
+                    "title": "Cenoura com Chocolate",
+                    "iconUrl": "http://www.rebolo.net/sabores/caseiros/thumbs/choc-cenoura.jpg",
+                    "data": "Cenoura com Chocolate"
+                },
+                "columns": [{
+                        "type": "Column",
+                        "items": [{
+                            "type": "Image",
+                            "style": "Person",
+                            "url": "http://www.rebolo.net/sabores/caseiros/thumbs/choc-cenoura.jpg",
+                            "size": "Large",
+                            "altText": "Uma imagem com um bolo de cenoura com chocolate"
+                        }],
+                        "width": "auto"
+                    },
+                    {
+                        "type": "Column",
+                        "items": [{
+                                "type": "TextBlock",
+                                "weight": "Bolder",
+                                "text": "Cenoura com Chocolate",
+                                "wrap": true
+                            },
+                            {
+                                "type": "TextBlock",
+                                "spacing": "None",
+                                "text": "O clássico bolo de cenoura, coberto por uma generosa e deliciosa camada de chocolate meio amargo.",
+                                "isSubtle": true,
+                                "wrap": true
+                            },
+                            {
+                                "type": "TextBlock",
+                                "horizontalAlignment": "Center",
+                                "spacing": "None",
+                                "weight": "Bolder",
+                                "text": "R$15,00",
+                                "wrap": true
+                            }
+                        ],
+                        "width": "stretch"
+                    }
+                ]
+            }]
+        },
+        {
+            "type": "Container",
+            "items": [{
+                "type": "ColumnSet",
+                "selectAction": {
+                    "type": "Action.Submit",
+                    "id": "colCake03",
+                    "title": "Chocolate",
+                    "iconUrl": "http://www.rebolo.net/sabores/caseiros/thumbs/14.jpg",
+                    "data": "Chocolate"
+                },
+                "columns": [{
+                        "type": "Column",
+                        "items": [{
+                            "type": "Image",
+                            "style": "Person",
+                            "url": "http://www.rebolo.net/sabores/caseiros/thumbs/14.jpg",
+                            "size": "Large",
+                            "altText": "Uma imagem com um bolo de chocolate"
+                        }],
+                        "width": "auto"
+                    },
+                    {
+                        "type": "Column",
+                        "items": [{
+                                "type": "TextBlock",
+                                "weight": "Bolder",
+                                "text": "Chocolate",
+                                "wrap": true
+                            },
+                            {
+                                "type": "TextBlock",
+                                "spacing": "None",
+                                "text": "Esse bolo incrivelmente úmido vai agradar em cheio o paladar dos chocólatras.",
+                                "isSubtle": true,
+                                "wrap": true
+                            },
+                            {
+                                "type": "TextBlock",
+                                "horizontalAlignment": "Center",
+                                "spacing": "None",
+                                "weight": "Bolder",
+                                "text": "R$20,00",
+                                "wrap": true
+                            }
+                        ],
+                        "width": "stretch"
+                    }
+                ]
+            }]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.0"
+}
